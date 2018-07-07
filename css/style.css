@@ -1,0 +1,149 @@
+/*header start*/
+header{
+	overflow: hidden;
+	background-color: #FFFFFF;
+	/*border:1px solid black;*/
+}
+.logo {
+	float: left;
+	width: 10%;
+}
+.logo img {
+	width: 100%;
+}
+
+.logo_content {
+    float: left;
+    width: 20%;
+    display: block;
+    margin-top: 60px;
+    color: #4A5C72;
+    text-transform: capitalize;
+    font-size: 28px;
+
+
+}
+
+.nav {
+	overflow: hidden;
+	float: right;
+	width: 50%;
+    padding: 30px;
+    margin-top: 15px;
+    font-size: 25px;
+}
+.nav ul  {
+	list-style: none;
+	float: right;
+	color: #4A5C72;
+
+}
+.nav ul li {
+	float: left;
+	padding: 0 10px;
+}
+.nav ul li a {
+	text-decoration:none;
+	display: block;
+	font-size: 40px;
+	transition: 1s;
+	text-transform: capitalize;	
+}
+/*header end*/
+/*bannar start*/
+.bannar {
+	background-image: url(../image/house.jpg);
+	height: 485px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+
+.content {
+	/*border:1px solid red;*/
+	width: 30%;
+	/*height: 100%*/
+	padding: 20px 30px;
+	color:white;
+	background-color: rgba(100,89,85,.7);
+	text-transform: capitalize;
+}
+.content h1{
+	text-transform: uppercase;
+	word-spacing: 10px;
+}
+.button {
+	border-radius:5px;
+	width: 30%;
+	background-color: red;
+	margin-left: 80px;
+	background-color: #282923;
+	text-transform: initial;
+}
+/*bannar end*/
+/*service start*/
+.service {
+	overflow: hidden;
+	padding: 30px 30px;
+	background-color: #FFFFFF;
+	margin-left:80px;
+	
+}
+.service1 {
+	float: left;
+	width: 22%;
+	margin: 0 45px;
+	/*padding: 0 20px;*/
+}
+.service1 img {
+	width: 100%;
+}
+.service1 h1 {
+	text-align: center;
+    margin: 0px 0px;
+    text-transform: capitalize;
+}
+.content2 p {
+	color: black;
+	margin: 30px 0;
+	/*padding: 2px;*/
+}
+.button2 {
+    background-color: #3C5677;
+    margin: 0 70px;
+    padding: 5px 15px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+	text-transform: capitalize;   
+}
+
+/*service end*/
+/*footer start*/
+.footer {
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.last {
+	overflow: hidden;
+	width: 20%;
+	margin: 0 520px;
+
+
+}
+.last img {
+	width: 100%;
+}
+.last ul {
+	float: left;
+	list-style: none;
+}
+.last ul li {
+	float: left;
+}
+.last ul li a {
+	float: left;
+	margin: 0 5px;
+}
+/*footer end*/
